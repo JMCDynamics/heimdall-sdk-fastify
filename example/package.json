@@ -23,7 +23,7 @@
     "@fastify/autoload": "^6.0.0",
     "@fastify/sensible": "^6.0.0",
     "fastify-cli": "^7.4.1",
-    "@heimdall-sdk/fastify": "workspace:^1.0.0"
+    "@omateuscoelho/heimdall-fastify": "workspace:^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^24.0.8",
