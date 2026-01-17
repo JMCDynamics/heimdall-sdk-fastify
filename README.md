@@ -1,4 +1,4 @@
-# @heimdall-sdk/fastify
+# @omateuscoelho/heimdall-fastify
 
 > **Requires Sentinel** — this middleware only works when a Sentinel instance is running. It sends request logs and metrics to Sentinel using a buffered, asynchronous mechanism.
 
@@ -14,7 +14,7 @@ Middleware for Fastify to send request logs and basic metrics to Sentinel with m
 ## Installation
 
 ```bash
-npm install @heimdall-sdk/fastify
+npm install @omateuscoelho/heimdall-fastify
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ import {
   FastifyPluginAsync,
   RouteShorthandOptions,
 } from "fastify";
-import { heimdall } from "@heimdall-sdk/fastify";
+import { heimdall } from "@omateuscoelho/heimdall-fastify";
 
 const opts: RouteShorthandOptions = {
   logLevel: "silent",

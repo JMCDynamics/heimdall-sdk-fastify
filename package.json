@@ -1,6 +1,6 @@
 {
-  "name": "@heimdall-sdk/fastify",
-  "version": "0.1.0",
+  "name": "@omateuscoelho/heimdall-fastify",
+  "version": "0.1.1",
   "description": "Heimdall SDK Fastify Integration",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -19,6 +19,9 @@
   "author": "",
   "license": "MIT",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "typescript": "^5.9.3"
   },
